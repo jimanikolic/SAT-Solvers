@@ -1,6 +1,8 @@
 import os
 import time
-
+"""
+About: https://en.wikipedia.org/wiki/DPLL_algorithm
+"""
 def DPLL(clauses):
     #Retrieve a clause and simplify clauses
     while True:
